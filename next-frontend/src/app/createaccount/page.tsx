@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "./createaccount.module.css";
+import styles from "../home.module.css";
 
 const CreateAccountPage = () => {
     return (
