@@ -5,8 +5,7 @@ import styles from "./home.module.css";
 const HomePage = () => {
     return (
         <div className={styles.container}>
-            <div className={styles.medicate}>Medicate</div>
-            <div className={styles.underline}></div>
+            <div>Medicate</div>
             <div className={styles.buttonContainer}>
                 <Link key="createaccount" href="/createaccount">
                     <div className={styles.button}>Create an Account</div>

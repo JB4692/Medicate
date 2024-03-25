@@ -6,9 +6,8 @@ import styles from "./login.module.css";
 const Login = () => {
     return (
         <div className={styles.container}>
-            <div className={styles.medicate}>Medicate</div>
+            <div>Medicate</div>
             <div className={styles.text}>Login</div>
-            <div className={styles.underline}></div>
             <div className={styles.inputs}>
                 <div className={styles.input}>
                     <Image
@@ -28,9 +27,7 @@ const Login = () => {
                     />
                     <input type="password" placeholder="Password" />
                 </div>
-                <div className={styles.forgotPassword}>
-                    Lost Password? <span className="underline">Click Here</span>
-                </div>
+                <div className={styles.forgotPassword}>Lost Password?</div>
             </div>
             <div className={styles.buttonContainer}>
                 <Link key="backButton" href="/">
