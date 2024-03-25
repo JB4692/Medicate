@@ -20,7 +20,7 @@ const CreateAccountPage = () => {
                 </div>
                 <div className={styles.input}>
                     <Image
-                        src="/icons/test.png"
+                        src="/icons/calendar.png"
                         width={22}
                         height={22}
                         alt="calendar"
